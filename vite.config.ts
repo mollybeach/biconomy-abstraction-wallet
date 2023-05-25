@@ -4,7 +4,7 @@ import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfil
 
 export default defineConfig({
   plugins: [react()],
-  base:process.env.NODE_ENV === "production" ? "/biconomy-abstraction-wallet/" : "/", // then print to the console: 
+  base:"/biconomy-abstraction-wallet/",
   optimizeDeps: {
     esbuildOptions: {
       define: {
