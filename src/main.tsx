@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { createContext} from 'react';
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
-import { SmartAccountProvider  } from './contexts/SmartAccountAcontext'
-import { Web3AuthProvider } from './contexts/SocialLoginContext'
+//const SmartAccountProvider = createContext(null);
+//const Web3AuthProvider = createContext(null);
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
