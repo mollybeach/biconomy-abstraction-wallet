@@ -71,3 +71,4 @@ You should now be all set to try out the starter kit and begin making changes fo
 ## Pull requests welcome
 
 Have any improvements to be made? Feel free to make a Pull Request! 
+.
